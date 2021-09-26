@@ -1,6 +1,9 @@
 import { useState } from "react";
 import "./App.css";
 
+//  PLEASE NOTE:
+// Im not sure whether tests are required
+
 const Checkout = ({ cart, rules, prices }) => {
   const cartItems = Object.keys(cart);
   const originalPrice = cartItems.reduce(
